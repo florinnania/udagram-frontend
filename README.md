@@ -3,15 +3,14 @@
 Udagram is a simple cloud application developed along side the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into three parts:
-1. [The Simple Frontend](https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-frontend)
-A basic Ionic client web application which consumes the RestAPI Backend. 
-2. [The RestAPI Backend](https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-restapi), a Node-Express server which can be deployed to a cloud service.
-3. [The Image Filtering Microservice](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code), the final project for the course. It is a Node-Express application which runs a simple script to process images.
+1. [The Simple Frontend](https://github.com/florinnania/udagram-frontend) A basic Ionic client web application which consumes the RestAPI Backend. 
+2. [The RestAPI Backend](https://github.com/florinnania/udagram-restapi-backend), a Node-Express server which can be deployed to a cloud service.
+3. [The Image Filtering Microservice](https://github.com/florinnania/udagram-image-filter-service), a Node-Express application which runs a simple script to process images.
 ***
 
 ## Getting Setup
 
-> _tip_: this frontend is designed to work with [The RestAPI Backend](https://github.com/grutt/udacity-c2-restapi). It is recommended you stand up the backend first, test using Postman, and then the frontend should integrate.
+> _tip_: this frontend is designed to work with [The RestAPI Backend](https://github.com/florinnania/udagram-restapi-backend). It is recommended you stand up the backend first, test using Postman, and then the frontend should integrate.
 
 ### Installing Node and NPM
 This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (NPM is included) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
