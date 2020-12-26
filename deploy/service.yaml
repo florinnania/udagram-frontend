@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: udagram-frontend
   labels:
-    run: udagram-frontend
+    service: udagram-frontend
 spec:
   ports:
   - port: 80
     protocol: TCP
   selector:
-    run: udagram-frontend
+    service: udagram-frontend
+  type: LoadBalancer
